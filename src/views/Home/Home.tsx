@@ -56,9 +56,9 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <img src= "/images/TitleBar.png" alt="cake logo" width={570} height={135} />
-        <Heading as="h1" scale="lg" mt="40px" mb="24px" color="secondary">          
+        {/* <Heading as="h1" scale="lg" mt="40px" mb="24px" color="secondary">          
           {TranslateString(578, "DeFi protocol focused on achieving sustainability powered by ZKsync Network")}
-        </Heading>
+        </Heading> */}
         {/* <Heading as="h1" scale="md" mt="10px" mb="24px" color="secondary">
           {TranslateString(545, 'Farming will start (on ')}<a href="/farms" rel="noreferrer" target="_blank">Soon)</a>
         </Heading>   */}
