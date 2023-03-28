@@ -21,11 +21,11 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'VIBE-USDC LP',
     lpAddresses: {
-      324: '0x1bb4855770Eb93e96f5793ABCAcc3106c2Becf31',
+      324: '0xb77177d16130b59e122caa42888d25cca75422cf',
     },
     tokenSymbol: 'VIBE',
     tokenAddresses: {
-      324: '0x782eb3304F8b9adD877F13a5cA321f72c4AA9804',
+      324: '0x04f249ae22d720caeebbe1b27f65eb617e588d52',
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -143,7 +143,7 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'VIBE',
     lpAddresses: {
-      324: '0x1bb4855770Eb93e96f5793ABCAcc3106c2Becf31'
+      324: '0xb77177d16130b59e122caa42888d25cca75422cf'
     },
     tokenSymbol: 'VIBE',
     tokenAddresses: {
@@ -224,7 +224,7 @@ const farms: FarmConfig[] = [
   //   isTokenOnly: true,
   //   lpSymbol: 'MUTE',
   //   lpAddresses: {
-  //     324: '0x1bb4855770Eb93e96f5793ABCAcc3106c2Becf31'
+  //     324: '0xb77177d16130b59e122caa42888d25cca75422cf'
   //   },
   //   tokenSymbol: 'MUTE',
   //   tokenAddresses: {
