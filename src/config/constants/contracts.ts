@@ -3,7 +3,7 @@ export default {
     324: '0x0e97C7a0F8B2C9885C8ac9fC6136e829CbC21d42' // VIBE
   },
   masterChef: {
-    324: '0x1E37A59cB7dA60c0b4273169eade2126ADf6cd7E',
+    324: '0xbB05918E9B4bA9Fe2c8384d223f0844867909Ffb',
   },
   sousMasterChef: {
     324: '0x563373d51Eb8e9F9074216763a39F3aD79597edd'

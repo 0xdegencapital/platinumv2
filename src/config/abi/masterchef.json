@@ -313,7 +313,7 @@
 				"type": "address"
 			}
 		],
-		"name": "pendingPlatin",
+		"name": "pendingVibe",
 		"outputs": [
 			{
 				"internalType": "uint256",

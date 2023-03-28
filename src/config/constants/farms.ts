@@ -80,7 +80,7 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'WETH-USDC LP',
     lpAddresses: {
-      324: '0xDFAaB828f5F515E104BaaBa4d8D554DA9096f0e4',
+      324: '0x48D41A388c90C1e842875ED006b7EfF1cD5d8126',
     },
     tokenSymbol: 'WETH',
     tokenAddresses: {
@@ -218,21 +218,21 @@ const farms: FarmConfig[] = [
   // },
 
 
-  {
-    pid: 10,
-    risk: 3,
-    isTokenOnly: true,
-    lpSymbol: 'MUTE',
-    lpAddresses: {
-      324: '0x1bb4855770Eb93e96f5793ABCAcc3106c2Becf31'
-    },
-    tokenSymbol: 'MUTE',
-    tokenAddresses: {
-      324: '0x0e97C7a0F8B2C9885C8ac9fC6136e829CbC21d42'
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
+  // {
+  //   pid: 10,
+  //   risk: 3,
+  //   isTokenOnly: true,
+  //   lpSymbol: 'MUTE',
+  //   lpAddresses: {
+  //     324: '0x1bb4855770Eb93e96f5793ABCAcc3106c2Becf31'
+  //   },
+  //   tokenSymbol: 'MUTE',
+  //   tokenAddresses: {
+  //     324: '0x0e97C7a0F8B2C9885C8ac9fC6136e829CbC21d42'
+  //   },
+  //   quoteTokenSymbol: QuoteToken.USDC,
+  //   quoteTokenAdresses: contracts.usdc,
+  // },
 
   {
     pid: 11,
