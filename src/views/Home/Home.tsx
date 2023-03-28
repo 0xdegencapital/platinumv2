@@ -61,7 +61,7 @@ const Home: React.FC = () => {
       <Hero>
         <img src= "/images/TitleBar5.png" alt="cake logo" width={450} height={125} />
         <Heading as="h1" scale="lg" mt="40px" mb="24px" color="secondary">          
-          {TranslateString(578, "DeFi protocol focused on achieving sustainability powered by zkSync Network")}
+          {TranslateString(578, "DeFi protocol focused on achieving sustainability")}
         </Heading>
         {/* <Heading as="h1" scale="md" mt="10px" mb="24px" color="secondary">
           {TranslateString(545, 'Farming will start (on ')}<a href="/farms" rel="noreferrer" target="_blank">Soon)</a>
