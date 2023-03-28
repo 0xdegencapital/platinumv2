@@ -231,10 +231,10 @@ const AddVibeCard = () => {
             </Button>
           </div>
           <BuyWrapper style={{ textAlign: 'center' }}>
-            <Link external href={`https://syncswap.xyz/${tokenAddress}`}>
+            <Link external href={`https://app.mute.io/${tokenAddress}`}>
               <Button variant="primary">
-                {TranslateString(10018, 'Buy $VIBE on Syncswap')}&nbsp;
-                <ButtonIcon src="/images/syncswap.png" alt="syncswap logo" />
+                {TranslateString(10018, 'Buy $VIBE on Mute')}&nbsp;
+                <ButtonIcon src="/images/mute.png" alt="mute logo" />
               </Button>
             </Link>
 

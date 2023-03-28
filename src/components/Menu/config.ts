@@ -22,11 +22,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://syncswap.xyz/',
+        href: 'https://app.mute.io/',
       },
       {
         label: 'Liquidity',
-        href: 'https://syncswap.xyz/pool/',
+        href: 'https://app.mute.io/pool/',
       },
     ],
   },

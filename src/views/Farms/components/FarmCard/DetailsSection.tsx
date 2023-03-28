@@ -53,9 +53,9 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
   const liquidityUrlPathParts = getLiquidityUrlPathParts({ quoteTokenAdresses, quoteTokenSymbol, tokenAddresses })
 
   let externalLink = isTokenOnly ?
-    `https://syncswap.xyz/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+    `https://app.mute.io/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
     :
-    `https://syncswap.xyz/#/add/${liquidityUrlPathParts}`;
+    `https://app.mute.io/#/add/${liquidityUrlPathParts}`;
   
   if (otherExchange === 'PolyZap') {
     externalLink = isTokenOnly ?

@@ -25,7 +25,7 @@ const Menu = (props) => {
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd.toNumber()}
       links={config}
-      priceLink="https://info.syncswap.xyz/token/0x782eb3304F8b9adD877F13a5cA321f72c4AA9804"
+      priceLink="https://info.app.mute.io/token/0x782eb3304F8b9adD877F13a5cA321f72c4AA9804"
       {...props}
     />
   )

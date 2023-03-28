@@ -35,7 +35,7 @@ const farms: FarmConfig[] = [
   //   risk: 5,
   //   lpSymbol: 'VIBE-WETH LP',
   //   lpAddresses: {
-  //     324: '0xb85feb6af3412d690dfda280b73eaed73a2315bc',
+  //     324: '0xb720aa5bb792719bb7a5c07edde84d542c118abb',
   //   },
   //   tokenSymbol: 'WMATIC',
   //   tokenAddresses: {
@@ -50,7 +50,7 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'VIBE-WETH LP',
     lpAddresses: {
-      324: '0xb85feb6aF3412d690DFDA280b73EaED73a2315bC',
+      324: '0xb720aa5bb792719bb7a5c07edde84d542c118abb',
     },
     tokenSymbol: 'WETH',
     tokenAddresses: {
