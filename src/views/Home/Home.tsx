@@ -9,6 +9,10 @@ import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
 import BG from '../BG'
+import CardValue from './components/CardValue'
+import CakeHarvestBalance from './components/CakeHarvestBalance'
+import CakeWinnings from './components/CakeWinnings'
+import AddVibeCard from './components/AddVibeCard'
 
 
 const Hero = styled.div`
@@ -55,20 +59,25 @@ const Home: React.FC = () => {
     <>
     <Page>
       <Hero>
-        <img src= "/images/TitleBar.png" alt="cake logo" width={570} height={135} />
+        <img src= "/images/TitleBar5.png" alt="cake logo" width={450} height={125} />
         <Heading as="h1" scale="lg" mt="40px" mb="24px" color="secondary">          
-          {TranslateString(578, "DeFi protocol focused on achieving sustainability powered by ZKsync Network")}
+          {TranslateString(578, "DeFi protocol focused on achieving sustainability powered by zkSync Network")}
         </Heading>
         {/* <Heading as="h1" scale="md" mt="10px" mb="24px" color="secondary">
           {TranslateString(545, 'Farming will start (on ')}<a href="/farms" rel="noreferrer" target="_blank">Soon)</a>
         </Heading>   */}
       </Hero>
+      <AddVibeCard />
+      <br/>
       <div>
+
         <Cards>
+
           <FarmStakingCard />
           <TwitterCard />
           <CakeStats />
           <TotalValueLockedCard />
+          {/* <Timer /> */}
           {/* <VibeStats /> */}
         </Cards>
       </div>
