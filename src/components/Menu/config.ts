@@ -22,11 +22,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://syncswap.xyz/#/swap?outputCurrency=0x782eb3304F8b9adD877F13a5cA321f72c4AA9804',
+        href: 'https://syncswap.xyz/',
       },
       {
         label: 'Liquidity',
-        href: 'https://syncswap.xyz/#/add/0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91/0x782eb3304F8b9adD877F13a5cA321f72c4AA9804',
+        href: 'https://syncswap.xyz/pool/',
       },
     ],
   },
