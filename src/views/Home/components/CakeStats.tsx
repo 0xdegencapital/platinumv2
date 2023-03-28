@@ -57,7 +57,7 @@ const CakeStats = () => {
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(541, 'Maximum Supply')}</Text>
-          <Text bold fontSize="14px">{TranslateString(543, '7,800')}</Text>
+          <Text bold fontSize="14px">{TranslateString(543, '1,000,000')}</Text>
         </Row>
         <Row>
           <Text fontSize="14px">{TranslateString(540, 'New VIBE/block')}</Text>
