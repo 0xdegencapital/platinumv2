@@ -80,7 +80,7 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'WETH-USDC LP',
     lpAddresses: {
-      324: '0x48D41A388c90C1e842875ED006b7EfF1cD5d8126',
+      324: '0x80115c708E12eDd42E504c1cD52Aea96C547c05c',
     },
     tokenSymbol: 'WETH',
     tokenAddresses: {
