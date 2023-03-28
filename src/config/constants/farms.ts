@@ -147,7 +147,7 @@ const farms: FarmConfig[] = [
     },
     tokenSymbol: 'VIBE',
     tokenAddresses: {
-      324: '0x0e97C7a0F8B2C9885C8ac9fC6136e829CbC21d42'
+      324: '0x04F249ae22D720CaEeBbe1B27f65Eb617e588D52'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
