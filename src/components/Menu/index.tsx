@@ -4,7 +4,7 @@ import { allLanguages } from 'config/localisation/languageCodes'
 import { LanguageContext } from 'contexts/Localisation/languageContext'
 import useTheme from 'hooks/useTheme'
 import { usePriceCakeBusd } from 'state/hooks'
-import { Menu as UikitMenu } from 'platinumfinancev2'
+import { Menu as UikitMenu } from 'zkvibeswap1'
 import config from './config'
 
 const Menu = (props) => {
@@ -25,7 +25,7 @@ const Menu = (props) => {
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd.toNumber()}
       links={config}
-      priceLink="https://info.quickswap.exchange/token/0x782eb3304F8b9adD877F13a5cA321f72c4AA9804"
+      priceLink="https://info.syncswap.xyz/token/0x782eb3304F8b9adD877F13a5cA321f72c4AA9804"
       {...props}
     />
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardBody, Heading, Text } from 'platinumfinancev2'
+import { Card, CardBody, Heading, Text } from 'zkvibeswap1'
 import BigNumber from 'bignumber.js/bignumber'
 import styled from 'styled-components'
 import { Timeline } from 'react-twitter-widgets'
@@ -39,7 +39,7 @@ const TwitterCard = () => {
         <Timeline
           dataSource={{
             sourceType: 'profile',
-            screenName: 'PlatinumPolygon'
+            screenName: 'ZkVibeswap'
           }}
           options={{
             height: '300',

@@ -127,7 +127,7 @@ const CardFooter: React.FC<Props> = ({
                 <span role="img" aria-label="syrup">
                 {' '}
                 </span>
-                {TranslateString(999, 'Distributing until block #')}<a href="https://polygonscan.com/block/countdown/17659200" rel="noreferrer" target="_blank">17659200</a>
+                {TranslateString(999, 'Distributing until block #')}<a href="https://zksync2-mainnet.zkscan.io/block/countdown/17659200" rel="noreferrer" target="_blank">17659200</a>
               </Label>
             </FlexFull>
           </Row>

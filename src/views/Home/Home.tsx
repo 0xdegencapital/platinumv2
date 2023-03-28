@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, BaseLayout } from 'platinumfinancev2'
+import { Heading, Text, BaseLayout } from 'zkvibeswap1'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import FarmStakingCard from './components/FarmStakingCard'
@@ -9,6 +9,7 @@ import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
 import BG from '../BG'
+
 
 const Hero = styled.div`
   align-items: center;
@@ -58,9 +59,9 @@ const Home: React.FC = () => {
         <Heading as="h1" scale="lg" mt="40px" mb="24px" color="secondary">          
           {TranslateString(578, "A DeFi protocol focused on achieving sustainability and adapting to investors' needs.")}
         </Heading>
-        <Heading as="h1" scale="md" mt="10px" mb="24px" color="secondary">
-          {TranslateString(545, 'Farming has already begun (at ')}<a href="https://polygonscan.com/block/countdown/16805200" rel="noreferrer" target="_blank">block #16805200)</a>
-        </Heading>  
+        {/* <Heading as="h1" scale="md" mt="10px" mb="24px" color="secondary">
+          {TranslateString(545, 'Farming will start (on ')}<a href="/farms" rel="noreferrer" target="_blank">Soon)</a>
+        </Heading>   */}
       </Hero>
       <div>
         <Cards>
@@ -68,10 +69,11 @@ const Home: React.FC = () => {
           <TwitterCard />
           <CakeStats />
           <TotalValueLockedCard />
+          {/* <VibeStats /> */}
         </Cards>
       </div>
     </Page>
-    <BG/>
+
     </>
   )
 }

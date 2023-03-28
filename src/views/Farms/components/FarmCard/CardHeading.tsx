@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Tag, Flex, Heading, Image } from 'platinumfinancev2'
+import { Tag, Flex, Heading, Image } from 'zkvibeswap1'
 import { CommunityTag, CoreTag, NoFeeTag, RiskTag, ExchangeTag } from 'components/Tags'
 
 export interface ExpandableSectionProps {

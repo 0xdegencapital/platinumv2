@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import BigNumber from 'bignumber.js'
 import styled, { keyframes } from 'styled-components'
-import { Flex, Text, Skeleton } from 'platinumfinancev2'
+import { Flex, Text, Skeleton } from 'zkvibeswap1'
 import { communityFarms } from 'config/constants'
 import { Farm } from 'state/types'
 import { provider } from 'web3-core'
@@ -99,7 +99,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     if (farm.quoteTokenSymbol === QuoteToken.CAKE) {
       return cakePrice.times(farm.lpTotalInQuoteToken)
     }
-    // if (farm.quoteTokenSymbol === QuoteToken.MATIC) {
+    // if (farm.quoteTokenSymbol === QuoteToken.ETH) {
     //   return cakePrice.times(farm.lpTotalInQuoteToken)
     // }
     return farm.lpTotalInQuoteToken
@@ -110,7 +110,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     : '-'
 
   const lpLabel = farm.lpSymbol
-  const earnLabel = 'PLATIN'
+  const earnLabel = 'VIBE'
   const farmAPY = farm.apy && farm.apy.times(new BigNumber(100)).toNumber().toLocaleString(undefined, {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
@@ -120,7 +120,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
 
   return (
     <FCard>
-      {(farm.tokenSymbol === 'PLATIN' || farm.quoteTokenSymbol === 'CAKE' || farm.risk === 69) && <StyledCardAccent />}
+      {(farm.tokenSymbol === 'VIBE' || farm.quoteTokenSymbol === 'CAKE' || farm.risk === 69) && <StyledCardAccent />}
       <CardHeading
         lpLabel={lpLabel}
         multiplier={farm.multiplier}
@@ -173,9 +173,9 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
           isTokenOnly={farm.isTokenOnly}
           bscScanAddress={
             farm.isTokenOnly ?
-              `https://polygonscan.com/address/${farm.tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+              `https://zksync2-mainnet.zkscan.io/address/${farm.tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
               :
-              `https://polygonscan.com/address/${farm.lpAddresses[process.env.REACT_APP_CHAIN_ID]}`
+              `https://zksync2-mainnet.zkscan.io/address/${farm.lpAddresses[process.env.REACT_APP_CHAIN_ID]}`
           }
           totalValueFormated={totalValueFormated}
           lpLabel={lpLabel}

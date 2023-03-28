@@ -16941,3 +16941,16 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zkvibeswap1@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/zkvibeswap1/-/zkvibeswap1-0.0.2.tgz#2259160823ddd24ba1a859300fe604fd0913b141"
+  integrity sha512-Rrh9XQHHRf5Y7bgB+j4dXSapUrXtk+CT4tgAd+owtOl5323VegdbsPvCYsh3jaa8wHRb77aBQav6XZhP3vUpKg==
+  dependencies:
+    "@popperjs/core" "^2.9.2"
+    "@types/lodash" "^4.14.168"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-popper "^2.2.5"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"

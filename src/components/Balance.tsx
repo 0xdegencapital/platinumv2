@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import CountUp from 'react-countup'
 import styled from 'styled-components'
-import { Text } from 'platinumfinancev2'
+import { Text } from 'zkvibeswap1'
 
 interface TextProps {
   isDisabled?: boolean

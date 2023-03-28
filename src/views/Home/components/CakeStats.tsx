@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardBody, Heading, Text } from 'platinumfinancev2'
+import { Card, CardBody, Heading, Text } from 'zkvibeswap1'
 import BigNumber from 'bignumber.js/bignumber'
 import styled from 'styled-components'
 import { getBalanceNumber } from 'utils/formatBalance'
@@ -41,7 +41,7 @@ const CakeStats = () => {
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'PLATIN Stats')}
+          {TranslateString(534, 'VIBE Stats')}
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(10005, 'Market Cap')}</Text>
@@ -60,7 +60,7 @@ const CakeStats = () => {
           <Text bold fontSize="14px">{TranslateString(543, '7,800')}</Text>
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New PLATIN/block')}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New VIBE/block')}</Text>
           <Text bold fontSize="14px">{TranslateString(539, '0.0015')}</Text>
         </Row>
       </CardBody>

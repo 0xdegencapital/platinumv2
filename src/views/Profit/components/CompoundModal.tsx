@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
 import React, { useMemo, useState } from 'react'
-import { Button, Modal } from 'platinumfinancev2'
+import { Button, Modal } from 'zkvibeswap1'
 import ModalActions from 'components/ModalActions'
 import Balance from 'components/Balance'
 import useI18n from 'hooks/useI18n'
@@ -23,7 +23,7 @@ const CompoundModal: React.FC<DepositModalProps> = ({ earnings, onConfirm, onDis
 
   return (
     <Modal
-      title={`${TranslateString(999, 'Compound')} PLATIN Earned`}
+      title={`${TranslateString(999, 'Compound')} VIBE Earned`}
       onDismiss={onDismiss}
     >
       <BalanceRow>

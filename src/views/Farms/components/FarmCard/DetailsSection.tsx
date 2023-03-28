@@ -1,7 +1,7 @@
 import React from 'react'
 import useI18n from 'hooks/useI18n'
 import styled from 'styled-components'
-import { Text, Flex, Link, LinkExternal } from 'platinumfinancev2'
+import { Text, Flex, Link, LinkExternal } from 'zkvibeswap1'
 import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
 import { Address } from 'config/constants/types'
 
@@ -53,9 +53,9 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
   const liquidityUrlPathParts = getLiquidityUrlPathParts({ quoteTokenAdresses, quoteTokenSymbol, tokenAddresses })
 
   let externalLink = isTokenOnly ?
-    `https://quickswap.exchange/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+    `https://syncswap.xyz/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
     :
-    `https://quickswap.exchange/#/add/${liquidityUrlPathParts}`;
+    `https://syncswap.xyz/#/add/${liquidityUrlPathParts}`;
   
   if (otherExchange === 'PolyZap') {
     externalLink = isTokenOnly ?
@@ -82,7 +82,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
       )}
       <Flex justifyContent="flex-start">
         <Link external href={bscScanAddress} bold={false}>
-          {TranslateString(356, 'View on PolygonScan')}
+          {TranslateString(356, 'View on Zksync Explorer')}
         </Link>
       </Flex>
     </Wrapper>

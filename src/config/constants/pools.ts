@@ -4,10 +4,10 @@ const pools: PoolConfig[] = [
   // {
   //  sousId: 1,
   //  tokenName: 'DAI',
-  //  stakingTokenName: QuoteToken.PLATIN,
+  //  stakingTokenName: QuoteToken.VIBE,
   //  stakingTokenAddress: '0x782eb3304F8b9adD877F13a5cA321f72c4AA9804',
   //  contractAddress: {
-  //   137: '0x462C91e1E5a596Ef74bABF46F68061A1836f020d'
+  //   324: '0x462C91e1E5a596Ef74bABF46F68061A1836f020d'
   //  },
   //  poolCategory: PoolCategory.COMMUNITY,
   //  projectLink: 'https://pancakeswap.finance/',
@@ -20,10 +20,10 @@ const pools: PoolConfig[] = [
   {
     sousId: 2,
     tokenName: 'WBTC',
-    stakingTokenName: QuoteToken['IRID-PLATIN'],
+    stakingTokenName: QuoteToken['IRID-VIBE'],
     stakingTokenAddress: '0xD592bfB50ad10088A428F1a4e74213090fC4A6dC',
     contractAddress: {
-      137: '0x563373d51Eb8e9F9074216763a39F3aD79597edd'
+      324: '0x563373d51Eb8e9F9074216763a39F3aD79597edd'
     },
     poolCategory: PoolCategory.COMMUNITY,
     projectLink: 'https://platinumfinance.app/',

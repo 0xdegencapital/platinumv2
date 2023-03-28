@@ -3,7 +3,7 @@ import { Route, useRouteMatch } from 'react-router-dom'
 import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
-import { Heading } from 'platinumfinancev2'
+import { Heading } from 'zkvibeswap1'
 import { BLOCKS_PER_YEAR } from 'config'
 import orderBy from 'lodash/orderBy'
 import partition from 'lodash/partition'
@@ -71,7 +71,7 @@ const Farm: React.FC = () => {
     <>
     <Page>
         <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
-            {TranslateString(10006, 'Stake IRID-PLATIN to earn other tokens.')}
+            {TranslateString(10006, 'Stake IRID-VIBE to earn other tokens.')}
         </Heading>
         <Heading as="h1" scale="md" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
             {TranslateString(10006, 'Unfortunately, a contract flaw was discovered and abused. Please unstake from the pool. For more information, please visit the TG.')}
@@ -93,7 +93,7 @@ const Farm: React.FC = () => {
         </Route>
       </FlexLayout>
     </Page>
-    <BG/>
+    {/* <BG/> */}
     </>
   )
 }

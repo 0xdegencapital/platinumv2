@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 // eslint-disable-next-line import/no-unresolved
-import { PancakeTheme } from 'platinumfinancev2'
+import { PancakeTheme } from 'zkvibeswap1'
 
 declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */
@@ -9,7 +9,7 @@ declare module 'styled-components' {
 
 const GlobalStyle = createGlobalStyle`
   * {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   body {
     background-color: ${({ theme }) => theme.colors.background};

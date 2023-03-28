@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Button } from 'platinumfinancev2'
+import { Button } from 'zkvibeswap1'
 import useI18n from 'hooks/useI18n'
 import Input, { InputProps } from './Input'
 import {BigNumber} from "bignumber.js"

@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js'
 import React, { useCallback, useState } from 'react'
 import styled, { keyframes } from 'styled-components'
-import { Button, IconButton, useModal, AddIcon, Image, Flex, Text } from 'platinumfinancev2'
+import { Button, IconButton, useModal, AddIcon, Image, Flex, Text } from 'zkvibeswap1'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import UnlockButton from 'components/UnlockButton'
 import Label from 'components/Label'
@@ -140,7 +140,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
   return (
 
     <Card isActive={isCardActive} isFinished={isFinished && sousId !== 0}>
-      {pool.stakingTokenName === 'IRID-PLATIN' && <StyledCardAccent />}
+      {pool.stakingTokenName === 'IRID-VIBE' && <StyledCardAccent />}
       {isFinished && sousId !== 0 && <PoolFinishedSash />}
       <div style={{ padding: '24px' }}>
         <CardTitle isFinished={isFinished && sousId !== 0}>
@@ -217,7 +217,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
             <span role="img" aria-label={stakingTokenName}>
             <div style={{ flex: 1 }}>
               {TranslateString(384, 'Your Stake')}:
-              <Image src={`/images/tokens/${stakingTokenName}.png`} width={20} height={20} alt="PLATIN" />
+              <Image src={`/images/tokens/${stakingTokenName}.png`} width={20} height={20} alt="VIBE" />
               
             </div>
             

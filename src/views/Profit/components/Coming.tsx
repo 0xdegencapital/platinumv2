@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Image, Button } from 'platinumfinancev2'
+import { Image, Button } from 'zkvibeswap1'
 import { CommunityTag } from 'components/Tags'
 import useI18n from 'hooks/useI18n'
 import Card from './Card'
@@ -40,7 +40,7 @@ const Coming: React.FC = () => {
         <CardTitle>Community Pools</CardTitle>
         <Image src="/images/egg/9.png" width={64} height={64} alt="Dividends" />
         <br />
-        <Label>Rewarding PLATIN holders.</Label>
+        <Label>Rewarding VIBE holders.</Label>
         <Button variant="secondary" mb="16px">
           <span style={{fontSize: 'x-large'}}>$2000</span> of DAI to be earned
         </Button>

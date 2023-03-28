@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import BigNumber from 'bignumber.js'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { provider } from 'web3-core'
-import { Image, Heading } from 'platinumfinancev2'
+import { Image, Heading } from 'zkvibeswap1'
 import { BLOCKS_PER_YEAR, CAKE_PER_BLOCK, CAKE_POOL_PID } from 'config'
 import FlexLayout from 'components/layout/Flex'
 import Page from 'components/layout/Page'
@@ -100,9 +100,9 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn PLATIN')
+            TranslateString(10002, 'Stake tokens to earn VIBE')
             :
-          TranslateString(320, 'Stake LP tokens to earn PLATIN')
+          TranslateString(320, 'Stake LP tokens to earn VIBE')
         }
       </Heading>
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
@@ -121,7 +121,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         </FlexLayout>
       </div>
     </Page>
-    <BG/>
+    {/* <BG/> */}
     </>
   )
 }

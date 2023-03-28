@@ -28,12 +28,12 @@ export enum QuoteToken {
   'UST' = 'UST',
   'USDT' = 'USDT',
   'BTC' = 'BTC',
-  'PLATIN' = 'PLATIN',
+  'VIBE' = 'VIBE',
   'WMATIC' = 'WMATIC',
-  'MATIC' = 'MATIC',
+  'ETH' = 'ETH',
   'DAI' = 'DAI',
   'WETH' = 'WETH',
-  'IRID-PLATIN' = 'IRID-PLATIN'
+  'IRID-VIBE' = 'IRID-VIBE'
 }
 
 export enum PoolCategory {
@@ -44,7 +44,7 @@ export enum PoolCategory {
 
 export interface Address {
   80001?: string
-  137: string
+  324: string
 }
 
 export interface FarmConfig {

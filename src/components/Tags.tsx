@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tag, VerifiedIcon, CommunityIcon, BinanceIcon } from 'platinumfinancev2'
+import { Tag, VerifiedIcon, CommunityIcon, BinanceIcon } from 'zkvibeswap1'
 
 const NoFeeTag = () => (
   <Tag variant="success" outline startIcon={<VerifiedIcon />}>

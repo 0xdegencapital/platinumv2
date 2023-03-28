@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js'
 import React, { useCallback, useMemo, useState } from 'react'
-import { Button, Modal } from 'platinumfinancev2'
+import { Button, Modal } from 'zkvibeswap1'
 import ModalActions from 'components/ModalActions'
 import TokenInput from '../../../components/TokenInput'
 import useI18n from '../../../hooks/useI18n'
