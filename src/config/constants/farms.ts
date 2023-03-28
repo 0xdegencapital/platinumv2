@@ -21,7 +21,7 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'VIBE-USDC LP',
     lpAddresses: {
-      324: '0x60BEFF3E9d3b4E8409471Ecc58e568EB153F1e00',
+      324: '0x1bb4855770Eb93e96f5793ABCAcc3106c2Becf31',
     },
     tokenSymbol: 'VIBE',
     tokenAddresses: {
@@ -50,7 +50,7 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'VIBE-WETH LP',
     lpAddresses: {
-      324: '0x1996ABaFb1ce1de7B5357eC9D281Bc378A0b8DEd',
+      324: '0xb85feb6aF3412d690DFDA280b73EaED73a2315bC',
     },
     tokenSymbol: 'WETH',
     tokenAddresses: {
@@ -80,11 +80,11 @@ const farms: FarmConfig[] = [
     risk: 5,
     lpSymbol: 'WETH-USDC LP',
     lpAddresses: {
-      324: '0x853ee4b2a13f8a742d64c8f088be7ba2131f670d',
+      324: '0xDFAaB828f5F515E104BaaBa4d8D554DA9096f0e4',
     },
     tokenSymbol: 'WETH',
     tokenAddresses: {
-      324: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
+      324: '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91',
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -143,11 +143,11 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'VIBE',
     lpAddresses: {
-      324: '0x60BEFF3E9d3b4E8409471Ecc58e568EB153F1e00'
+      324: '0x1bb4855770Eb93e96f5793ABCAcc3106c2Becf31'
     },
     tokenSymbol: 'VIBE',
     tokenAddresses: {
-      324: '0x782eb3304F8b9adD877F13a5cA321f72c4AA9804'
+      324: '0x0e97C7a0F8B2C9885C8ac9fC6136e829CbC21d42'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -191,11 +191,11 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'WETH',
     lpAddresses: {
-      324: '0x853ee4b2a13f8a742d64c8f088be7ba2131f670d'
+      324: '0xDFAaB828f5F515E104BaaBa4d8D554DA9096f0e4'
     },
     tokenSymbol: 'WETH',
     tokenAddresses: {
-      324: '0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619'
+      324: '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -224,11 +224,11 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'MUTE',
     lpAddresses: {
-      324: '0x1f1e4c845183ef6d50e9609f16f6f9cae43bc9cb'
+      324: '0x1bb4855770Eb93e96f5793ABCAcc3106c2Becf31'
     },
     tokenSymbol: 'MUTE',
     tokenAddresses: {
-      324: '0x831753dd7087cac61ab5644b308642cc1c33dc13'
+      324: '0x0e97C7a0F8B2C9885C8ac9fC6136e829CbC21d42'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -244,7 +244,7 @@ const farms: FarmConfig[] = [
     },
     tokenSymbol: 'USDC',
     tokenAddresses: {
-      324: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174'
+      324: '0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4'
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,

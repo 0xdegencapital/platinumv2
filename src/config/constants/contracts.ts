@@ -26,7 +26,7 @@ export default {
     324: '0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4'
   },
   usdt: {
-    324: '0x59ac51Cfb025adCE007D1EC96A21f7c7e3f32330', // USDC
+    324: '0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4', // USDC
     80001: '',
   },
   wbtc: {
